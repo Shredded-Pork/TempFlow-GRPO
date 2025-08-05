@@ -2,7 +2,7 @@
 <div style="text-align: center;">
     <img src="asset/fig1.svg" alt="LOGO">
 </div>
-<b>  </b>
+<b>🦕  </b>
 
 Recent flow matching models for text-to-image generation have achieved remark-
 able quality, yet their integration with reinforcement learning for human prefer-

@@ -1,4 +1,4 @@
-# SR-DPO
+# TempFlow-GRPO
 <div style="text-align: center;">
     <img src="asset/fig1.svg" alt="LOGO">
 </div>

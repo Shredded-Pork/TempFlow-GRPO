@@ -23,8 +23,8 @@
 
 
 ## 📊 Experimental Performance
-![未命名1741779027](https://github.com/user-attachments/assets/ced4197e-19e6-476f-9e9b-84cc96323842)
-![未命名1741779044](https://github.com/user-attachments/assets/07f4176a-3a5b-4066-a59f-d4bbe2767860)
+![Geneval](https://github.com/user-attachments/assets/ced4197e-19e6-476f-9e9b-84cc96323842)
+![PickScore](https://github.com/user-attachments/assets/07f4176a-3a5b-4066-a59f-d4bbe2767860)
 
 - For more details please read our paper.
 

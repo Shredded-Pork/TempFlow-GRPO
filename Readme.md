@@ -20,8 +20,10 @@
 
 
 ## 📊 Experimental Performance
-<img src="asset/figure2.jpg" alt="Geneval" width="400"/>
-<img src="asset/figure2_1.jpg" alt="PickScore" width="400"/>
+<img src="asset/figure2_1.jpg" alt="PickScore" width="400"/> <img src="asset/figure2.jpg" alt="Geneval" width="400"/>
+
+## 📺 Visualization
+<img src="asset/figure7.jpg" alt="PickScore" width="512"/> 
 
 - For more details please read our paper.
 

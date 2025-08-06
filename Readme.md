@@ -26,6 +26,6 @@
 <img src="asset/figure7.jpg" alt="PickScore" width="1024"/> 
 
 - For more details please read our paper.
-- <embed src="asset/figure3.pdf" width="800" height="600" type="application/pdf">
+[论文原文下载](asset/figure3.pdf)
 
 

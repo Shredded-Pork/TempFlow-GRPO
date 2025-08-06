@@ -20,8 +20,8 @@
 
 
 ## 📊 Experimental Performance
-![Geneval](asset/figure3.jpg)
-![PickScore](https://github.com/user-attachments/assets/07f4176a-3a5b-4066-a59f-d4bbe2767860)
+![Geneval](asset/figure2.jpg)
+![PickScore](asset/figure2_1.jpg)
 
 - For more details please read our paper.
 

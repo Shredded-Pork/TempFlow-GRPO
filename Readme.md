@@ -20,6 +20,7 @@
 ## 🆕 News
 
 > We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**.🔥🔥🔥
+- **[2025-08-06]** We have released the first version of our paper. 🔥🔥🔥
 
 
 ## 📊 Experimental Performance

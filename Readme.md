@@ -1,16 +1,12 @@
 <div style="text-align: center;">
-    <img src="asset/figure3.pdf" alt="LOGO">
+    <img src="asset/figure3.jpg" alt="LOGO">
 </div>
 
 
-<b>🦖 TempFlow-GRPO </b>
+<b>🦖 TEMPFLOW-GRPO: WHEN TIMING MATTERS FOR GRPO IN FLOW MODELS </b>
 
-📝 Paper</a>
-</div>
 
 **TempFlow-GRPO** (Temporal Flow GRPO), a principled GRPO framework that captures and exploits the temporal structure inherent in flow-based generation. 
-
-![DEMO](asset/demo1.png)
 
 ## 🗺️ Roadmap for TempFlow-GRPO
 > TempFlow-GRPO (Temporal Flow GRPO), a principled GRPO framework that captures and exploits the temporal structure inherent in flow-based generation. introduces two key innovations: (i) a trajectory branching mechanism that provides process rewards by concentrating stochasticity at designated branching points, enabling precise credit assignment without requiring specialized intermediate reward models and (ii) an noise weighting scheme that modulates policy optimization according to the intrinsic exploration potential of each timestep, prioritizing learning during high-impact early stages while ensuring stable refinement in later phases. These additions endow the model with temporally-aware optimization that respects the underlying generative dynamics, translating into state-of-the-art gains in human preference alignment, and standard text-to-image benchmarks
@@ -24,7 +20,7 @@
 
 
 ## 📊 Experimental Performance
-![Geneval](https://github.com/user-attachments/assets/ced4197e-19e6-476f-9e9b-84cc96323842)
+![Geneval](asset/figure3.jpg)
 ![PickScore](https://github.com/user-attachments/assets/07f4176a-3a5b-4066-a59f-d4bbe2767860)
 
 - For more details please read our paper.

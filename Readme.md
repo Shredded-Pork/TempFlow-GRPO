@@ -5,6 +5,7 @@
 
 <b>🦖 TEMPFLOW-GRPO: WHEN TIMING MATTERS FOR GRPO IN FLOW MODELS </b>
 
+<a href="https://arxiv.org/pdf/2508.04324">📝 Paper</a>
 
 **TempFlow-GRPO** (Temporal Flow GRPO), a principled GRPO framework that captures and exploits the temporal structure inherent in flow-based generation. 
 

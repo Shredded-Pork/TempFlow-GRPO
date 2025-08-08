@@ -21,7 +21,7 @@
 
 ## 🆕 News
 
-> We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**.🔥🔥🔥
+> We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**. We will release our code recently!🔥🔥🔥
 - **[2025-08-06]** We have released the first version of our paper. 🔥🔥🔥
 
 

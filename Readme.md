@@ -1,12 +1,16 @@
 <div style="text-align: center;">
     <img src="asset/figure3.jpg" alt="LOGO">
 </div>
+<div align="center" style="font-family: charter;">
 
 <h1>🦖 TEMPFLOW-GRPO: WHEN TIMING MATTERS FOR GRPO IN FLOW MODELS</h1>
 
 
 <a href="https://arxiv.org/abs/2508.04324" target="_blank">
-    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-red?logo=arxiv" height="20" /></a>
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-TempFlowGRPO-red?logo=arxiv" height="20" /></a>
+<a href="https://tempflowgrpo.github.io/" target="_blank">
+    <img alt="Website" src="https://img.shields.io/badge/💻_Project-TempFlowGRPO-blue.svg" height="20" /></a>
+</div>
 
 **TempFlow-GRPO** (Temporal Flow GRPO), a principled GRPO framework that captures and exploits the temporal structure inherent in flow-based generation. 
 

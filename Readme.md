@@ -33,4 +33,5 @@
 
 - For more details please read our paper.
 
-
+# Acknowledgements
+[Flow-GRPO](https://github.com/yifan123/flow_grpo): The first method integrating online reinforcement learning (RL) into flow matching models.

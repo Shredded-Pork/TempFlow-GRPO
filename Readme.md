@@ -23,6 +23,7 @@
 
 > We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**. We will release our code recently!🔥🔥🔥
 - **[2025-08-06]** We have released the first version of our paper. 🔥🔥🔥
+- **[2025-08-11]** Thanks [Jie Liu's](https://jieliu.site/) comments for our paper. We will release the 1024 Flux RL model in the month. 🔥🔥🔥
 
 
 ## 📊 Experimental Performance

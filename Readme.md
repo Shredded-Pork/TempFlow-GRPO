@@ -22,9 +22,9 @@
 ## 🆕 News
 
 > We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**. We will release our code recently!🔥🔥🔥
-- **[2025-08-06]** We have released the first version of our paper. 🔥🔥🔥
-- **[2025-08-11]** Thanks [Jie Liu's](https://jieliu.site/) comments for our paper. We will release the 1024 Flux RL model in the month. 🔥🔥🔥
-- **[2025-08-14]** Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward, blue is TempFlow-GRPO and Purple is Flow-GRPO Fixed. 🔥🔥🔥
+- **[2025-08-06]**  We have released the first version of our paper. 🔥🔥🔥
+- **[2025-08-11]**  Thanks [Jie Liu's](https://jieliu.site/) comments for our paper. We will release the 1024 Flux RL model in the month. 🔥🔥🔥
+- **[2025-08-14]**  Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward, blue is TempFlow-GRPO and Purple is Flow-GRPO Fixed. 🔥🔥🔥
 <img width="420" height="203" alt="image" src="https://github.com/user-attachments/assets/fe2518c3-cd01-42d6-9564-8a357659a587" />
 
 ## 📊 Experimental Performance

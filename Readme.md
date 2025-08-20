@@ -30,6 +30,8 @@
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c41b4873-0a43-42a1-a3a4-f4510be1c40a" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e33cbbff-c4e6-404b-a45e-01bb78f37522" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c804a8ba-b819-4ead-ab72-296485bad88f" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/00bf85e1-4049-4060-8845-696eb9fb9a3a" />
 
+- **[2025-08-20]**  We have released the first version of our paper in huggface. 🔥🔥🔥
+
 
 
 

@@ -27,6 +27,13 @@
 - **[2025-08-14]**  Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward, blue is TempFlow-GRPO and Purple is Flow-GRPO Fixed. 🔥🔥🔥
 <img width="420" height="203" alt="image" src="https://github.com/user-attachments/assets/fe2518c3-cd01-42d6-9564-8a357659a587" />
 
+## 🚀 Updates
+To support research and the open-source community, we will release the entire project—including datasets, training pipelines, and model weights. Thank you for your patience and continued support! 🌟
+- [x] Release arXiv paper
+- [x] Release GitHub repo
+- [ ] Release training code
+- [ ] Release model checkpoints
+
 ## 📊 Experimental Performance
 <img src="asset/figure2_1.jpg" alt="PickScore" width="400"/> <img src="asset/figure2.jpg" alt="Geneval" width="400"/>
 

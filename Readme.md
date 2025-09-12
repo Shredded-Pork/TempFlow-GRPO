@@ -16,7 +16,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="asset/figure3.jpg" alt="LOGO">
+    <img src="asset/teaser.png" alt="LOGO">
 </div>
 
 ## 🗺️ Roadmap for TempFlow-GRPO

@@ -56,7 +56,6 @@ To support research and the open-source community, we will release the entire pr
 
 ### Training
 #### SD3.5-M
-Run the demo code to automatically download to `"~/.cache/huggingface"`:
 ```bash
 # Flow-GRPO
 bash scripts/multi_node/main.sh
@@ -64,7 +63,6 @@ bash scripts/multi_node/main.sh
 bash scripts/multi_node/train_sd3_pr.sh
 ```
 #### FLUX.1-dev
-Run the demo code to automatically download to `"~/.cache/huggingface"`:
 ```bash
 # Flow-GRPO
 bash scripts/multi_node/train_flux.sh

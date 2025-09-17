@@ -77,7 +77,7 @@ bash scripts/multi_node/train_flux_pr.sh
 <img src="asset/performance.png" alt="Performance" width="800"/>
 
 ## 📺 Visualization
-<img src="asset/vis.png" alt="FLUX.1-dev" width="1024"/> 
+<img src="asset/appendix_vis4.png" alt="FLUX.1-dev" width="1024"/> 
 
 - For more details please read our paper.
 

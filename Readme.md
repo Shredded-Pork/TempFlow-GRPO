@@ -29,11 +29,7 @@
 > We have presented an improved **Flow-GRPO** method, **TempFlow-GRPO**. We will release our code recently!🔥🔥🔥
 - **[2025-08-06]**  We have released the first version of our paper. 🔥🔥🔥
 - **[2025-08-11]**  Thanks [Jie Liu's](https://jieliu.site/) comments for our paper. We will release the 1024 Flux RL model in the month. 🔥🔥🔥
-- **[2025-08-14]**  Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward, blue is TempFlow-GRPO and Purple is Flow-GRPO Fixed. 🔥🔥🔥
-<img width="420" height="203" alt="image" src="https://github.com/user-attachments/assets/fe2518c3-cd01-42d6-9564-8a357659a587" />
-
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c41b4873-0a43-42a1-a3a4-f4510be1c40a" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e33cbbff-c4e6-404b-a45e-01bb78f37522" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/c804a8ba-b819-4ead-ab72-296485bad88f" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/00bf85e1-4049-4060-8845-696eb9fb9a3a" />
-
+- **[2025-08-14]**  Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward. 🔥🔥🔥
 - **[2025-08-20]**  We have released the first version of our paper in huggface. 🔥🔥🔥
 - **[2025-09-12]**  We will release the second version of our paper in next week. 🔥🔥🔥
 
@@ -46,7 +42,34 @@ To support research and the open-source community, we will release the entire pr
 - [x] Release arXiv paper
 - [x] Release GitHub repo
 - [x] Release training code
+- [ ] Release neat training code
 - [ ] Release model checkpoints
+
+## 📕 Training & Evaluation
+### Preparation
+1. First you need to download the reward model (we support clip-based pickscore, vlm-based hpsv3, ...) and base model (SD3.5-M, FLUX.1-dev).
+2. Then you need to modify the noise level in [sd3_pipeline_with_logprob_perstep](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/flow_grpo/diffusers_patch/sd3_pipeline_with_logprob_perstep.py) and [sd3_pipeline_with_logprob](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/flow_grpo/diffusers_patch/sd3_pipeline_with_logprob.py).
+3. Finally, you need to modify the [config](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/config/dgx.py). We support you using 24 groups and 48 num groups.
+Note that we use branch=4, per branch exploration=6. You can modify them in our code.
+
+### Training
+#### SD3.5-M
+Run the demo code to automatically download to `"~/.cache/huggingface"`:
+```bash
+# Flow-GRPO
+bash scripts/multi_node/main.sh
+# TempFlow-GRPO
+bash scripts/multi_node/train_sd3_pr.sh
+```
+#### FLUX.1-dev
+Run the demo code to automatically download to `"~/.cache/huggingface"`:
+```bash
+# Flow-GRPO
+bash scripts/multi_node/train_flux.sh
+# TempFlow-GRPO
+bash scripts/multi_node/train_flux_pr.sh
+```
+
 
 ## 📊 Experimental Performance
 <img src="asset/figure2_1.jpg" alt="PickScore" width="400"/> <img src="asset/figure2.jpg" alt="Geneval" width="400"/>

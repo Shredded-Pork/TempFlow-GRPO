@@ -45,7 +45,7 @@
 To support research and the open-source community, we will release the entire project—including datasets, training pipelines, and model weights. Thank you for your patience and continued support! 🌟
 - [x] Release arXiv paper
 - [x] Release GitHub repo
-- [ ] Release training code
+- [x] Release training code
 - [ ] Release model checkpoints
 
 ## 📊 Experimental Performance

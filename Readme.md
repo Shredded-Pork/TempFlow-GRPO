@@ -74,10 +74,10 @@ bash scripts/multi_node/train_flux_pr.sh
 
 
 ## 📊 Experimental Performance
-<img src="asset/figure2_1.jpg" alt="PickScore" width="400"/> <img src="asset/figure2.jpg" alt="Geneval" width="400"/>
+<img src="asset/performance.png" alt="Performance" width="800"/>
 
 ## 📺 Visualization
-<img src="asset/figure7.jpg" alt="PickScore" width="1024"/> 
+<img src="asset/vis.png" alt="FLUX.1-dev" width="1024"/> 
 
 - For more details please read our paper.
 

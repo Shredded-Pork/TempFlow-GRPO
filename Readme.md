@@ -32,6 +32,7 @@
 - **[2025-08-14]**  Our method also achieves better performance in FLUX 1024px with HPSv3 (based on Qwen2-VL) as reward. 🔥🔥🔥
 - **[2025-08-20]**  We have released the first version of our paper in huggface. 🔥🔥🔥
 - **[2025-09-12]**  We will release the second version of our paper in next week. 🔥🔥🔥
+- **[2025-09-17]**  We will release the code of our paper. 🔥🔥🔥
 
 
 
@@ -49,8 +50,9 @@ To support research and the open-source community, we will release the entire pr
 ### Preparation
 1. First you need to download the reward model (we support clip-based pickscore, vlm-based hpsv3, ...) and base model (SD3.5-M, FLUX.1-dev).
 2. Then you need to modify the noise level in [sd3_pipeline_with_logprob_perstep](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/flow_grpo/diffusers_patch/sd3_pipeline_with_logprob_perstep.py) and [sd3_pipeline_with_logprob](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/flow_grpo/diffusers_patch/sd3_pipeline_with_logprob.py).
-3. Finally, you need to modify the [config](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/config/dgx.py). We support you using 24 groups and 48 num groups.
-Note that we use branch=4, per branch exploration=6. You can modify them in our code.
+3. Finally, you need to modify the [config](https://github.com/Shredded-Pork/TempFlow-GRPO/blob/main/config/dgx.py). We suggest you using 24 groups and 48 num groups.
+
+**Note that we use branch=4, per branch exploration=6. You can modify them in our code. We will release a neat code verision in next few days.**
 
 ### Training
 #### SD3.5-M

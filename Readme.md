@@ -39,7 +39,7 @@
 
 
 ## 🚀 Updates
-To support research and the open-source community, we will release the entire project—including datasets, training pipelines, and model weights. **Our code only need little modification to Flow-GRPO!**. Thank you for your patience and continued support! 🌟
+To support research and the open-source community, we will release the entire project—including datasets, training pipelines, and model weights. **Our code is based on Flow-GRPO!**. Thank you for your patience and continued support! 🌟
 - [x] Release arXiv paper
 - [x] Release GitHub repo
 - [x] Release training code

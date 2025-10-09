@@ -225,8 +225,8 @@ def pickscore_sd3_pr():
     # 8*A800 keep group size=24，num group=48
     config.resolution = 512
     config.sample.train_batch_size = 1
-    config.sample.num_image_per_prompt = 2
-    config.sample.num_batches_per_epoch = 2
+    config.sample.num_image_per_prompt = 4
+    config.sample.num_batches_per_epoch = 4
     config.sample.test_batch_size = 16 # # This bs is a special design, the test set has a total of 2048, to make gpu_num*bs*n as close as possible to 2048, because when the number of samples cannot be divided evenly by the number of cards, multi-card will fill the last batch to ensure each card has the same number of samples, affecting gradient synchronization.
 
     config.train.batch_size = config.sample.train_batch_size 

@@ -785,7 +785,8 @@ def main(_):
         # per-prompt mean/std tracking
         if config.per_prompt_stat_tracking:
             # gather the prompts across processes
-            prompt_ids = accelerator.gather(samples["prompt_ids"]).cpu().numpy()
+            # prompt_ids = accelerator.gather(samples["prompt_ids"]).cpu().numpy() # prompt group
+            prompt_ids = samples["prompt_ids"].cpu().numpy() # seed group
             prompts = pipeline.tokenizer.batch_decode(
                 prompt_ids, skip_special_tokens=True
             )
@@ -814,6 +815,7 @@ def main(_):
 
         # ungather advantages; we only need to keep the entries corresponding to the samples on this process
         advantages = torch.as_tensor(advantages)
+        advantages = accelerator.gather(advantages.to(accelerator.device)) # seed group
         samples["advantages"] = (
             advantages.reshape(accelerator.num_processes, -1, advantages.shape[-1])[accelerator.process_index]
             .to(accelerator.device)

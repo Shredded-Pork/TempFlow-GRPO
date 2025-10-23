@@ -55,6 +55,12 @@ To support research and the open-source community, we will release the entire pr
 **Note that we use branch=4, per branch exploration=6. You can modify them in our code. We will release a neat code verision in next few days.**
 
 ### Training
+### About Group Strategy
+1. Seed Group:
+<img width="894" height="41" alt="image" src="https://github.com/user-attachments/assets/9953b278-3c91-4b27-8ac5-f67c0199b5f4" />
+<img width="892" height="119" alt="image" src="https://github.com/user-attachments/assets/06771eb4-6974-4ddf-a02e-2ec29b3382c4" />
+2. Prompt Group: notes the seed group
+3. Batch Group: global_std=True
 #### SD3.5-M
 ```bash
 # Flow-GRPO

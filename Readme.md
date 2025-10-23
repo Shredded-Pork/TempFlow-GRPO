@@ -61,9 +61,9 @@ To support research and the open-source community, we will release the entire pr
 <img width="894" height="41" alt="image" src="https://github.com/user-attachments/assets/9953b278-3c91-4b27-8ac5-f67c0199b5f4" />
 <img width="892" height="119" alt="image" src="https://github.com/user-attachments/assets/06771eb4-6974-4ddf-a02e-2ec29b3382c4" />
 
-3. Prompt Group: notes the seed group
+2. Prompt Group: notes the seed group
 
-4. Batch Group: global_std=True
+3. Batch Group: global_std=True
    
 #### SD3.5-M
 ```bash

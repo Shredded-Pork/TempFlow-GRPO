@@ -770,7 +770,8 @@ def main(_):
         # The purpose of repeating `adv` along the timestep dimension here is to make it easier to introduce timestep-dependent advantages later, such as adding a KL reward.
         samples["rewards"]["avg"] = samples["rewards"]["avg"]
         # gather rewards across processes
-        gathered_rewards = {key: accelerator.gather(value) for key, value in samples["rewards"].items()}
+        # gathered_rewards = {key: accelerator.gather(value) for key, value in samples["rewards"].items()} # prompt group
+        gathered_rewards = samples["rewards"] # seed group
         gathered_rewards = {key: value.cpu().numpy() for key, value in gathered_rewards.items()}
         # log rewards and images
         if accelerator.is_main_process:

@@ -34,7 +34,7 @@
 - **[2025-09-12]**  We will release the second version of our paper in next week. 🔥🔥🔥
 - **[2025-09-17]**  We will release the code of our paper. 🔥🔥🔥
 - **[2025-10-28]**  Very happy to see TempFlow-GRPO in video RL of meituan's [Longcat-Video](https://github.com/meituan-longcat/LongCat-Video). 🔥🔥🔥
-- **[2025-10-28]**  Very happy to see TempFlow-GRPO in image edit RL of baai's [EditScore](https://github.com/VectorSpaceLab/EditScore). 🔥🔥🔥
+- **[2025-10-28]**  Very happy to see TempFlow-GRPO in image edit RL of baai's [OmniGen2-EditScore](https://github.com/VectorSpaceLab/EditScore). 🔥🔥🔥
 
 
 

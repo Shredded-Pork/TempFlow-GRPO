@@ -33,6 +33,7 @@
 - **[2025-08-20]**  We have released the first version of our paper in huggface. 🔥🔥🔥
 - **[2025-09-12]**  We will release the second version of our paper in next week. 🔥🔥🔥
 - **[2025-09-17]**  We will release the code of our paper. 🔥🔥🔥
+- **[2025-10-28]**  Very happy to see TempFlow-GRPO in video RL of meituan's [Longcat-Video](https://github.com/meituan-longcat/LongCat-Video) and image edit of [EditScore](https://github.com/VectorSpaceLab/EditScore). 🔥🔥🔥
 
 
 

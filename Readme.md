@@ -35,6 +35,8 @@
 - **[2025-09-17]**  We will release the code of our paper. 🔥🔥🔥
 - **[2025-10-28]**  Very happy to see TempFlow-GRPO in video RL of meituan's [Longcat-Video](https://github.com/meituan-longcat/LongCat-Video). 🔥🔥🔥
 - **[2025-10-28]**  Very happy to see TempFlow-GRPO in image edit RL of baai's [OmniGen2-EditScore](https://github.com/VectorSpaceLab/EditScore). 🔥🔥🔥
+- **[2025-11-10]**  Upload the code for QwenImage. 🔥🔥🔥
+
 
 
 
@@ -79,6 +81,13 @@ bash scripts/multi_node/train_sd3_pr.sh
 bash scripts/multi_node/train_flux.sh
 # TempFlow-GRPO
 bash scripts/multi_node/train_flux_pr.sh
+```
+#### QwenImage
+```bash
+# Flow-GRPO
+bash scripts/multi_node/train_qwenimage.sh
+# TempFlow-GRPO
+bash scripts/multi_node/train_qwenimage_pr.sh
 ```
 
 

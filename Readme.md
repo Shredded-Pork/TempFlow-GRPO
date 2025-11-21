@@ -101,4 +101,5 @@ bash scripts/multi_node/train_qwenimage_pr.sh
 
 # Acknowledgements
 [Flow-GRPO](https://github.com/yifan123/flow_grpo): The first method integrating online reinforcement learning (RL) into flow matching models.
+
 Work was done at [WeChat Vision](https://github.com/WeChatCV).
